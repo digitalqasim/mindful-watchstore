@@ -11,6 +11,7 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import OrderTracking from "./pages/OrderTracking";
 import NotFound from "./pages/NotFound";
+import ClockCursor from "./components/ui/ClockCursor";
 import { ThemeProvider } from "./components/layout/ThemeProvider";
 import './lib/i18n'; // Initialize i18n
 
@@ -22,6 +23,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <ClockCursor />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />

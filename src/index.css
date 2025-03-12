@@ -96,6 +96,12 @@
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    cursor: none; /* Hide the default cursor */
+  }
+
+  /* Only show the default cursor for interactive elements */
+  a, button, input, select, textarea, [role="button"] {
+    cursor: pointer;
   }
 
   ::selection {
