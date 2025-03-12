@@ -40,7 +40,7 @@ const Index = () => {
                   <span className="text-watch-accent text-sm font-medium uppercase tracking-wider">Collection</span>
                   <h3 className="text-white text-2xl font-semibold mb-2">Luxury Watches</h3>
                   <Button asChild variant="outline" className="bg-transparent border-white text-white hover:bg-white/10">
-                    <Link to="/products?category=luxury">
+                    <Link to="/shop?category=luxury">
                       Explore <ArrowRight className="ml-1 h-4 w-4" />
                     </Link>
                   </Button>
@@ -58,7 +58,7 @@ const Index = () => {
                   <div className="absolute bottom-0 left-0 p-4 z-20">
                     <h3 className="text-white text-xl font-semibold mb-1">Smart Watches</h3>
                     <Button asChild variant="link" className="px-0 text-white hover:text-watch-accent">
-                      <Link to="/products?category=smart">
+                      <Link to="/shop?category=smart">
                         View Collection <ArrowRight className="ml-1 h-4 w-4" />
                       </Link>
                     </Button>
@@ -76,7 +76,7 @@ const Index = () => {
                     <div className="absolute bottom-0 left-0 p-3 z-20">
                       <h3 className="text-white text-base font-semibold mb-1">Casual</h3>
                       <Link 
-                        to="/products?category=casual"
+                        to="/shop?category=casual"
                         className="text-white/80 text-sm hover:text-watch-accent transition-colors"
                       >
                         Explore
@@ -94,7 +94,7 @@ const Index = () => {
                     <div className="absolute bottom-0 left-0 p-3 z-20">
                       <h3 className="text-white text-base font-semibold mb-1">Sport</h3>
                       <Link 
-                        to="/products?category=sport"
+                        to="/shop?category=sport"
                         className="text-white/80 text-sm hover:text-watch-accent transition-colors"
                       >
                         Explore
@@ -103,6 +103,23 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Order Tracking Section */}
+        <section className="py-16 bg-watch-muted">
+          <div className="watch-container">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-4 watch-heading">Track Your Order</h2>
+              <p className="text-gray-600 mb-8">
+                Check the status of your order quickly and easily with our order tracking system.
+              </p>
+              <Button asChild size="lg">
+                <Link to="/order-tracking">
+                  Track My Order
+                </Link>
+              </Button>
             </div>
           </div>
         </section>

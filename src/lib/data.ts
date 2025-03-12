@@ -30,7 +30,8 @@ export const products: Product[] = [
     },
     inStock: true,
     isFeatured: true,
-    rating: 4.9
+    rating: 4.9,
+    brand: 'Rolex'
   },
   {
     id: '2',
@@ -60,7 +61,8 @@ export const products: Product[] = [
     inStock: true,
     isNew: true,
     isFeatured: true,
-    rating: 4.8
+    rating: 4.8,
+    brand: 'Apple'
   },
   {
     id: '3',
@@ -88,7 +90,8 @@ export const products: Product[] = [
       'Water Resistance': '300m'
     },
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    brand: 'Omega'
   },
   {
     id: '4',
@@ -117,7 +120,8 @@ export const products: Product[] = [
     },
     inStock: true,
     isFeatured: true,
-    rating: 4.6
+    rating: 4.6,
+    brand: 'Daniel Wellington'
   },
   {
     id: '5',
@@ -145,7 +149,8 @@ export const products: Product[] = [
       'Water Resistance': '30m'
     },
     inStock: true,
-    rating: 4.9
+    rating: 4.9,
+    brand: 'Patek Philippe'
   },
   {
     id: '6',
@@ -174,7 +179,8 @@ export const products: Product[] = [
     },
     inStock: true,
     isNew: true,
-    rating: 4.5
+    rating: 4.5,
+    brand: 'Tag Heuer'
   },
   {
     id: '7',
@@ -202,7 +208,8 @@ export const products: Product[] = [
       'Water Resistance': '30m'
     },
     inStock: true,
-    rating: 4.8
+    rating: 4.8,
+    brand: 'Jaeger-LeCoultre'
   },
   {
     id: '8',
@@ -230,7 +237,358 @@ export const products: Product[] = [
       'Water Resistance': '200m'
     },
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    brand: 'Tudor'
+  },
+  {
+    id: '9',
+    name: 'Pilot Chronograph',
+    description: 'Inspired by aviation heritage, this pilot watch combines vintage aesthetics with modern functionality.',
+    price: 999.99,
+    images: [
+      'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1622179454012-070a036b7275?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'luxury',
+    style: 'classic',
+    features: [
+      'Flyback chronograph',
+      'GMT function',
+      'Oversized crown',
+      'Vintage-style leather strap',
+      'Luminous dial'
+    ],
+    specifications: {
+      'Case Material': 'Brushed Stainless Steel',
+      'Case Diameter': '45mm',
+      'Band Material': 'Calfskin Leather',
+      'Movement': 'Swiss Automatic Chronograph',
+      'Water Resistance': '100m'
+    },
+    inStock: true,
+    rating: 4.6,
+    brand: 'IWC'
+  },
+  {
+    id: '10',
+    name: 'Fitness Tracker Pro',
+    description: 'The ultimate fitness companion with comprehensive health tracking features and long battery life.',
+    price: 149.99,
+    images: [
+      'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'smart',
+    style: 'modern',
+    features: [
+      'Heart rate monitor',
+      'Blood oxygen tracking',
+      'Sleep analysis',
+      'Built-in GPS',
+      '14-day battery life'
+    ],
+    specifications: {
+      'Display': 'LCD',
+      'Size': '1.3 inch',
+      'Connectivity': 'Bluetooth 5.0',
+      'Battery Life': 'Up to 14 days',
+      'Water Resistance': '50m'
+    },
+    inStock: true,
+    isNew: true,
+    rating: 4.3,
+    brand: 'Fitbit'
+  },
+  {
+    id: '11',
+    name: 'Classic Dress',
+    description: 'An elegant dress watch with a refined design, perfect for formal occasions and business attire.',
+    price: 349.99,
+    images: [
+      'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'casual',
+    style: 'classic',
+    features: [
+      'Sunray dial finish',
+      'Date window',
+      'Applied indices',
+      'Slim profile',
+      'Dress watch design'
+    ],
+    specifications: {
+      'Case Material': 'Stainless Steel',
+      'Case Diameter': '40mm',
+      'Band Material': 'Leather',
+      'Movement': 'Japanese Quartz',
+      'Water Resistance': '30m'
+    },
+    inStock: true,
+    rating: 4.4,
+    brand: 'Tissot'
+  },
+  {
+    id: '12',
+    name: 'Tourbillon Masterpiece',
+    description: 'A horological masterpiece featuring a tourbillon complication, showcasing exceptional watchmaking artistry.',
+    price: 25999.99,
+    images: [
+      'https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1639269740806-1d88a356bee1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'luxury',
+    style: 'statement',
+    features: [
+      'Tourbillon complication',
+      'Hand-engraved movement',
+      'Power reserve indicator',
+      'Exhibition case back',
+      'Limited production'
+    ],
+    specifications: {
+      'Case Material': '18K Rose Gold',
+      'Case Diameter': '41mm',
+      'Band Material': 'Alligator Leather',
+      'Movement': 'Manual-winding Tourbillon',
+      'Water Resistance': '30m'
+    },
+    inStock: true,
+    rating: 5.0,
+    brand: 'Vacheron Constantin'
+  },
+  {
+    id: '13',
+    name: 'Tactical Field',
+    description: 'A rugged field watch designed for outdoor adventures with military-inspired styling and excellent durability.',
+    price: 299.99,
+    images: [
+      'https://images.unsplash.com/photo-1614540979714-6bf01624e531?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1609607285694-e283bd2ea9a0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'sport',
+    style: 'modern',
+    features: [
+      'Military-inspired design',
+      'Tritium illumination',
+      'Scratch-resistant sapphire',
+      'CORDURA fabric strap',
+      '24-hour time markers'
+    ],
+    specifications: {
+      'Case Material': 'Matte Stainless Steel',
+      'Case Diameter': '42mm',
+      'Band Material': 'Cordura Nylon',
+      'Movement': 'Swiss Quartz',
+      'Water Resistance': '200m'
+    },
+    inStock: true,
+    rating: 4.5,
+    brand: 'Hamilton'
+  },
+  {
+    id: '14',
+    name: 'Smart Watch 5',
+    description: 'The latest generation smartwatch with a vibrant display, comprehensive health features, and seamless connectivity.',
+    price: 429.99,
+    images: [
+      'https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1600086827875-a63b01f1335c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'smart',
+    style: 'modern',
+    features: [
+      'Always-on Retina display',
+      'ECG and heart rate monitor',
+      'Fall detection',
+      'GPS and cellular connectivity',
+      'App ecosystem'
+    ],
+    specifications: {
+      'Display': 'LTPO OLED Retina',
+      'Size': '45mm',
+      'Connectivity': 'WiFi, Bluetooth 5.0, Cellular',
+      'Battery Life': 'Up to 18 hours',
+      'Water Resistance': '50m'
+    },
+    inStock: true,
+    isNew: true,
+    rating: 4.7,
+    brand: 'Samsung'
+  },
+  {
+    id: '15',
+    name: 'Skeleton Automatic',
+    description: 'A fascinating timepiece with a skeleton dial that reveals the intricate mechanical movement inside.',
+    price: 699.99,
+    images: [
+      'https://images.unsplash.com/photo-1615655395428-6e3a9b6259b3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1624808883970-ca2f1a1353d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'luxury',
+    style: 'statement',
+    features: [
+      'Skeleton dial design',
+      'Exhibition case back',
+      'Hand-wound movement',
+      'Genuine leather strap',
+      'Limited production'
+    ],
+    specifications: {
+      'Case Material': 'Stainless Steel',
+      'Case Diameter': '43mm',
+      'Band Material': 'Leather',
+      'Movement': 'Mechanical Hand-wound',
+      'Water Resistance': '30m'
+    },
+    inStock: true,
+    rating: 4.6,
+    brand: 'Oris'
+  },
+  {
+    id: '16',
+    name: 'Retro Digital',
+    description: 'A nostalgic throwback to classic digital watches with modern reliability and enhanced functionality.',
+    price: 89.99,
+    images: [
+      'https://images.unsplash.com/photo-1629426958003-35a6776462db?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1629426958236-ac5cd9c874ea?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'casual',
+    style: 'statement',
+    features: [
+      'Retro digital display',
+      'Chronograph function',
+      'EL backlight',
+      'Daily alarm',
+      'Metal bracelet'
+    ],
+    specifications: {
+      'Case Material': 'Resin with Metal Accents',
+      'Case Diameter': '38mm',
+      'Band Material': 'Stainless Steel',
+      'Movement': 'Digital Quartz',
+      'Water Resistance': '50m'
+    },
+    inStock: true,
+    rating: 4.2,
+    brand: 'Casio'
+  },
+  {
+    id: '17',
+    name: 'Solar Powered Eco',
+    description: 'An environmentally friendly watch powered by light with a perpetual calendar and energy-saving features.',
+    price: 299.99,
+    images: [
+      'https://images.unsplash.com/photo-1508610048659-a06b669e3321?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'casual',
+    style: 'modern',
+    features: [
+      'Solar powered',
+      'Perpetual calendar',
+      'Eco-friendly materials',
+      'Power reserve indicator',
+      'Light-powered rechargeable battery'
+    ],
+    specifications: {
+      'Case Material': 'Super Titanium™',
+      'Case Diameter': '42mm',
+      'Band Material': 'Super Titanium™',
+      'Movement': 'Eco-Drive Solar',
+      'Water Resistance': '100m'
+    },
+    inStock: true,
+    rating: 4.5,
+    brand: 'Citizen'
+  },
+  {
+    id: '18',
+    name: 'Grand Complication',
+    description: 'A masterpiece of watchmaking featuring multiple complications including a perpetual calendar and minute repeater.',
+    price: 38999.99,
+    images: [
+      'https://images.unsplash.com/photo-1639042198624-0cec71f8e254?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1652379350563-8d1e9bd5d3c0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'luxury',
+    style: 'classic',
+    features: [
+      'Perpetual calendar',
+      'Minute repeater',
+      'Split-seconds chronograph',
+      'Moonphase display',
+      'Power reserve indicator'
+    ],
+    specifications: {
+      'Case Material': 'Platinum',
+      'Case Diameter': '44mm',
+      'Band Material': 'Hand-stitched Alligator Leather',
+      'Movement': 'Manual-winding Grand Complication',
+      'Water Resistance': '30m'
+    },
+    inStock: true,
+    rating: 5.0,
+    brand: 'Audemars Piguet'
+  },
+  {
+    id: '19',
+    name: 'Dive Master 500',
+    description: 'A professional dive watch built to withstand extreme depths with exceptional water resistance and visibility.',
+    price: 1299.99,
+    images: [
+      'https://images.unsplash.com/photo-1553837851-341a0f2168b9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1541480353068-311758931a70?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'sport',
+    style: 'statement',
+    features: [
+      'Automatic helium escape valve',
+      'Ceramic unidirectional bezel',
+      'Super-LumiNova markers',
+      'Screw-down crown and caseback',
+      'Professional dive extension'
+    ],
+    specifications: {
+      'Case Material': 'Stainless Steel',
+      'Case Diameter': '46mm',
+      'Band Material': 'Stainless Steel Bracelet',
+      'Movement': 'Swiss Automatic',
+      'Water Resistance': '500m'
+    },
+    inStock: true,
+    rating: 4.8,
+    brand: 'Longines'
+  },
+  {
+    id: '20',
+    name: 'Racing Chronograph',
+    description: 'Inspired by motorsport, this precision chronograph features a tachymeter and high-performance design.',
+    price: 2999.99,
+    images: [
+      'https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
+      'https://images.unsplash.com/photo-1555368288-a0d6018f2a32?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3'
+    ],
+    category: 'sport',
+    style: 'modern',
+    features: [
+      'Automatic chronograph',
+      'Tachymeter bezel',
+      'Racing-inspired dial',
+      'Exhibition caseback',
+      'Date display'
+    ],
+    specifications: {
+      'Case Material': 'Stainless Steel',
+      'Case Diameter': '44mm',
+      'Band Material': 'Perforated Leather',
+      'Movement': 'Automatic Chronograph',
+      'Water Resistance': '100m'
+    },
+    inStock: true,
+    rating: 4.7,
+    brand: 'TAG Heuer'
   }
 ];
 

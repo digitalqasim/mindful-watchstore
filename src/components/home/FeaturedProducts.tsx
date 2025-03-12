@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
             </p>
           </div>
           <Button variant="link" asChild className="text-watch flex items-center no-underline hover:text-watch-accent">
-            <Link to="/products">
+            <Link to="/shop">
               View All Products <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </Button>

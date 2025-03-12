@@ -13,6 +13,7 @@ export interface Product {
   isNew?: boolean;
   isFeatured?: boolean;
   rating?: number;
+  brand: string;
 }
 
 export type WatchCategory = 'luxury' | 'smart' | 'casual' | 'sport';
