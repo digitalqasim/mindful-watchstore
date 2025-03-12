@@ -17,6 +17,8 @@ const Checkout = () => {
   ];
   
   const subtotal = calculateCartTotal(cartItems);
+  const tax = subtotal * 0.08; // Example tax rate of 8%
+  const shipping = 15; // Fixed shipping cost
   
   return (
     <>
@@ -34,7 +36,10 @@ const Checkout = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2">
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <CheckoutForm />
+                <CheckoutForm 
+                  cartItems={cartItems}
+                  cartTotal={subtotal}
+                />
               </div>
             </div>
             
@@ -61,9 +66,10 @@ const Checkout = () => {
                 </div>
                 
                 <CartSummary 
+                  items={cartItems}
                   subtotal={subtotal}
-                  shipping={0} // Free shipping
-                  tax={subtotal * 0.08} // Example tax rate of 8%
+                  shipping={shipping}
+                  tax={tax}
                   showPaymentButton={false}
                 />
               </div>

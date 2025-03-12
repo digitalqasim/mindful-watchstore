@@ -71,7 +71,7 @@ const Cart = () => {
                         key={item.product.id}
                         item={item}
                         onUpdateQuantity={handleUpdateQuantity}
-                        onRemove={handleRemoveItem}
+                        onRemoveItem={handleRemoveItem}
                       />
                     ))}
                   </div>
@@ -80,6 +80,7 @@ const Cart = () => {
               
               <div>
                 <CartSummary 
+                  items={cartItems}
                   subtotal={subtotal}
                   shipping={0} // Free shipping
                   tax={subtotal * 0.08} // Example tax rate of 8%
