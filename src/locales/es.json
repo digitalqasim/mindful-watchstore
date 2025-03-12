@@ -1,0 +1,95 @@
+
+{
+  "navbar": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "trackOrder": "Seguimiento de pedidos",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "search": "Buscar"
+  },
+  "footer": {
+    "collections": "Colecciones",
+    "luxuryWatches": "Relojes de lujo",
+    "smartWatches": "Relojes inteligentes",
+    "casualWatches": "Relojes casuales",
+    "sportWatches": "Relojes deportivos",
+    "newArrivals": "Novedades",
+    "help": "Ayuda",
+    "orderTracking": "Seguimiento de pedidos",
+    "shipping": "Envío y entrega",
+    "returns": "Devoluciones e intercambios",
+    "warranty": "Información de garantía",
+    "faq": "Preguntas frecuentes",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados"
+  },
+  "home": {
+    "heroTitle": "Elegancia atemporal en tu muñeca",
+    "heroSubtitle": "Descubre nuestra colección de relojes premium",
+    "shopNow": "Comprar ahora",
+    "featuredProducts": "Productos destacados",
+    "viewAll": "Ver todos",
+    "collections": "Nuestras colecciones",
+    "collectionsSubtitle": "Explora nuestra diversa gama de relojes diseñados para cada estilo de vida y ocasión",
+    "trackOrder": "Seguimiento de tu pedido",
+    "trackOrderSubtitle": "Consulta el estado de tu pedido rápida y fácilmente con nuestro sistema de seguimiento",
+    "trackMyOrder": "Seguir mi pedido",
+    "joinCommunity": "Únete a nuestra comunidad",
+    "joinCommunitySubtitle": "Suscríbete para recibir actualizaciones sobre nuevas colecciones, ofertas especiales e información sobre relojería",
+    "emailPlaceholder": "Tu dirección de correo electrónico",
+    "subscribe": "Suscribirse"
+  },
+  "product": {
+    "addToCart": "Añadir al carrito",
+    "inStock": "En existencia",
+    "outOfStock": "Agotado",
+    "description": "Descripción",
+    "features": "Características",
+    "specifications": "Especificaciones",
+    "reviews": "Reseñas",
+    "relatedProducts": "Productos relacionados"
+  },
+  "cart": {
+    "shoppingCart": "Carrito de compra",
+    "emptyCart": "Tu carrito está vacío",
+    "emptyCartMessage": "Parece que aún no has añadido nada a tu carrito",
+    "startShopping": "Empezar a comprar",
+    "items": "Artículos",
+    "continueShopping": "Continuar comprando",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "free": "Gratis",
+    "tax": "Impuesto",
+    "total": "Total",
+    "proceedToCheckout": "Proceder al pago",
+    "taxCalculated": "Los impuestos se calcularán en el momento del pago",
+    "weAccept": "Aceptamos"
+  },
+  "checkout": {
+    "checkout": "Finalizar compra",
+    "backToCart": "Volver al carrito",
+    "orderSummary": "Resumen del pedido",
+    "shippingAddress": "Dirección de envío",
+    "paymentMethod": "Método de pago",
+    "paymentNote": "El procesamiento de pagos se implementará en una actualización futura"
+  },
+  "tracking": {
+    "orderTracking": "Seguimiento de pedidos",
+    "enterOrderId": "Introduce tu ID de pedido",
+    "trackButton": "Seguir pedido",
+    "orderIdPlaceholder": "ID de pedido (ej. CHR-12345)"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "language": "Idioma",
+    "english": "English",
+    "french": "Français",
+    "german": "Deutsch",
+    "spanish": "Español"
+  }
+}

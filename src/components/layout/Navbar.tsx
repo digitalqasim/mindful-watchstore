@@ -4,6 +4,9 @@ import { Link, useLocation } from 'react-router-dom';
 import { ShoppingCart, Watch, Menu, X, Search, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { useTranslation } from 'react-i18next';
+import ThemeSwitcher from './ThemeSwitcher';
+import LanguageSwitcher from './LanguageSwitcher';
 
 interface NavbarProps {
   cartItemCount: number;
@@ -14,6 +17,7 @@ const Navbar = ({ cartItemCount = 0 }: NavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const isMobile = useIsMobile();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,9 +35,9 @@ const Navbar = ({ cartItemCount = 0 }: NavbarProps) => {
   }, [location.pathname]);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/products', label: 'Shop' },
-    { href: '/order-tracking', label: 'Track Order' }
+    { href: '/', label: t('navbar.home') },
+    { href: '/products', label: t('navbar.shop') },
+    { href: '/order-tracking', label: t('navbar.trackOrder') }
   ];
 
   return (
@@ -74,10 +78,14 @@ const Navbar = ({ cartItemCount = 0 }: NavbarProps) => {
         </nav>
 
         {/* Right side icons */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-1 md:space-x-2">
+          <LanguageSwitcher />
+          
+          <ThemeSwitcher />
+          
           <button
             className="rounded-full p-2 text-watch dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-            aria-label="Search"
+            aria-label={t('navbar.search')}
           >
             <Search className="h-5 w-5" />
           </button>
@@ -85,7 +93,7 @@ const Navbar = ({ cartItemCount = 0 }: NavbarProps) => {
           <Link
             to="/cart"
             className="rounded-full p-2 text-watch dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors relative"
-            aria-label="Cart"
+            aria-label={t('navbar.cart')}
           >
             <ShoppingCart className="h-5 w-5" />
             {cartItemCount > 0 && (
@@ -97,7 +105,7 @@ const Navbar = ({ cartItemCount = 0 }: NavbarProps) => {
 
           <button
             className="rounded-full p-2 text-watch dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors md:flex"
-            aria-label="Account"
+            aria-label={t('navbar.account')}
           >
             <User className="h-5 w-5" />
           </button>

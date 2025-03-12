@@ -1,0 +1,95 @@
+
+{
+  "navbar": {
+    "home": "Startseite",
+    "shop": "Shop",
+    "trackOrder": "Bestellung verfolgen",
+    "cart": "Warenkorb",
+    "account": "Konto",
+    "search": "Suchen"
+  },
+  "footer": {
+    "collections": "Kollektionen",
+    "luxuryWatches": "Luxusuhren",
+    "smartWatches": "Smartwatches",
+    "casualWatches": "Freizeituhren",
+    "sportWatches": "Sportuhren",
+    "newArrivals": "Neuheiten",
+    "help": "Hilfe",
+    "orderTracking": "Bestellverfolgung",
+    "shipping": "Versand & Lieferung",
+    "returns": "Rückgabe & Umtausch",
+    "warranty": "Garantieinformationen",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "home": {
+    "heroTitle": "Zeitlose Eleganz an Ihrem Handgelenk",
+    "heroSubtitle": "Entdecken Sie unsere Kollektion hochwertiger Uhren",
+    "shopNow": "Jetzt einkaufen",
+    "featuredProducts": "Ausgewählte Produkte",
+    "viewAll": "Alle anzeigen",
+    "collections": "Unsere Kollektionen",
+    "collectionsSubtitle": "Entdecken Sie unsere vielfältige Auswahl an Zeitmessern, die für jeden Lebensstil und jede Gelegenheit gefertigt wurden",
+    "trackOrder": "Verfolgen Sie Ihre Bestellung",
+    "trackOrderSubtitle": "Überprüfen Sie den Status Ihrer Bestellung schnell und einfach mit unserem Bestellverfolgungssystem",
+    "trackMyOrder": "Meine Bestellung verfolgen",
+    "joinCommunity": "Treten Sie unserer Community bei",
+    "joinCommunitySubtitle": "Abonnieren Sie, um Updates zu neuen Kollektionen, Sonderangeboten und Einblicke in die Uhrmacherei zu erhalten",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "subscribe": "Abonnieren"
+  },
+  "product": {
+    "addToCart": "In den Warenkorb",
+    "inStock": "Auf Lager",
+    "outOfStock": "Nicht auf Lager",
+    "description": "Beschreibung",
+    "features": "Eigenschaften",
+    "specifications": "Spezifikationen",
+    "reviews": "Bewertungen",
+    "relatedProducts": "Ähnliche Produkte"
+  },
+  "cart": {
+    "shoppingCart": "Warenkorb",
+    "emptyCart": "Ihr Warenkorb ist leer",
+    "emptyCartMessage": "Es sieht so aus, als hätten Sie noch nichts in Ihren Warenkorb gelegt",
+    "startShopping": "Einkauf beginnen",
+    "items": "Artikel",
+    "continueShopping": "Einkauf fortsetzen",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "free": "Kostenlos",
+    "tax": "Steuer",
+    "total": "Gesamt",
+    "proceedToCheckout": "Zur Kasse",
+    "taxCalculated": "Steuern werden an der Kasse berechnet",
+    "weAccept": "Wir akzeptieren"
+  },
+  "checkout": {
+    "checkout": "Zur Kasse",
+    "backToCart": "Zurück zum Warenkorb",
+    "orderSummary": "Bestellübersicht",
+    "shippingAddress": "Lieferadresse",
+    "paymentMethod": "Zahlungsmethode",
+    "paymentNote": "Die Zahlungsabwicklung wird in einem zukünftigen Update implementiert"
+  },
+  "tracking": {
+    "orderTracking": "Bestellverfolgung",
+    "enterOrderId": "Geben Sie Ihre Bestellnummer ein",
+    "trackButton": "Bestellung verfolgen",
+    "orderIdPlaceholder": "Bestellnummer (z.B. CHR-12345)"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "language": {
+    "language": "Sprache",
+    "english": "English",
+    "french": "Français",
+    "german": "Deutsch",
+    "spanish": "Español"
+  }
+}

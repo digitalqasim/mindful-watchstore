@@ -1,0 +1,95 @@
+
+{
+  "navbar": {
+    "home": "Home",
+    "shop": "Shop",
+    "trackOrder": "Track Order",
+    "cart": "Cart",
+    "account": "Account",
+    "search": "Search"
+  },
+  "footer": {
+    "collections": "Collections",
+    "luxuryWatches": "Luxury Watches",
+    "smartWatches": "Smart Watches",
+    "casualWatches": "Casual Watches",
+    "sportWatches": "Sport Watches",
+    "newArrivals": "New Arrivals",
+    "help": "Help",
+    "orderTracking": "Order Tracking",
+    "shipping": "Shipping & Delivery",
+    "returns": "Returns & Exchanges",
+    "warranty": "Warranty Information",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "rights": "All rights reserved"
+  },
+  "home": {
+    "heroTitle": "Timeless Elegance on Your Wrist",
+    "heroSubtitle": "Discover our collection of premium watches",
+    "shopNow": "Shop Now",
+    "featuredProducts": "Featured Products",
+    "viewAll": "View All",
+    "collections": "Our Collections",
+    "collectionsSubtitle": "Explore our diverse range of timepieces crafted for every lifestyle and occasion",
+    "trackOrder": "Track Your Order",
+    "trackOrderSubtitle": "Check the status of your order quickly and easily with our order tracking system",
+    "trackMyOrder": "Track My Order",
+    "joinCommunity": "Join Our Community",
+    "joinCommunitySubtitle": "Subscribe to receive updates on new collections, special offers, and watchmaking insights",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "description": "Description",
+    "features": "Features",
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "relatedProducts": "Related Products"
+  },
+  "cart": {
+    "shoppingCart": "Shopping Cart",
+    "emptyCart": "Your cart is empty",
+    "emptyCartMessage": "Looks like you haven't added anything to your cart yet",
+    "startShopping": "Start Shopping",
+    "items": "Items",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "free": "Free",
+    "tax": "Tax",
+    "total": "Total",
+    "proceedToCheckout": "Proceed to Checkout",
+    "taxCalculated": "Taxes will be calculated at checkout",
+    "weAccept": "We Accept"
+  },
+  "checkout": {
+    "checkout": "Checkout",
+    "backToCart": "Back to cart",
+    "orderSummary": "Order Summary",
+    "shippingAddress": "Shipping Address",
+    "paymentMethod": "Payment Method",
+    "paymentNote": "Payment processing will be implemented in a future update"
+  },
+  "tracking": {
+    "orderTracking": "Order Tracking",
+    "enterOrderId": "Enter your order ID",
+    "trackButton": "Track Order",
+    "orderIdPlaceholder": "Order ID (e.g., CHR-12345)"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "language": "Language",
+    "english": "English",
+    "french": "Français",
+    "german": "Deutsch",
+    "spanish": "Español"
+  }
+}
